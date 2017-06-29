@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CarryMe2</string>
+    <string name="calc">Calcul mental</string>
+    <string name="ue">Union Européenne</string>
+    <string name="howto">Comment jouer</string>
+    <string name="reglages">Réglages</string>
+    <string name="rules">Cette application à pour but de tester les compétences de l\'élève.\n\nDans la partie mathématique, il faudra lire l\'énoncé et écrire à l\'aide du clavier numérique le résultat. Le but est de répondre aux 20 questions proposées le plus rapidement possible. \n\nDans la partie sur l\'Union Européenne, il faudra répondre à la question en choisissant la bonne réponse parmis les 4 qui sont proposées.</string>
+    <string name="vol">Volume musique</string>
+    <string name="egal">=</string>
+    <string name="volstatus">volstatus</string>
+    <string name="buttonCredits">Crédits</string>
+</resources>

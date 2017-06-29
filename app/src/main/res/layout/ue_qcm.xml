@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.va407031iutniceunicefr.carryme2.MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="QCM Union Eropéenne"
+        android:id="@+id/qcm_ue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/question"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:useDefaultMargins="false"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <Button
+            android:layout_width="@dimen/buttonQcmwidth"
+            android:layout_height="@dimen/buttonQcmHeight"
+            android:text="New Button"
+            android:id="@+id/choix1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textAlignment="center"
+            android:background="@android:drawable/btn_default"
+            android:singleLine="false"
+            android:textSize="@dimen/qcmfontsize"
+            android:layout_gravity="top" />
+
+        <Button
+            android:layout_width="@dimen/buttonQcmwidth"
+            android:layout_height="@dimen/buttonQcmHeight"
+            android:text="La cour de Justice"
+            android:id="@+id/choix2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textAlignment="center"
+            android:background="@android:drawable/btn_default"
+            android:textSize="@dimen/qcmfontsize"
+            android:layout_gravity="top" />
+
+        <Button
+            android:layout_width="@dimen/buttonQcmwidth"
+            android:layout_height="@dimen/buttonQcmHeight"
+            android:text="New Button"
+            android:id="@+id/choix3"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textAlignment="center"
+            android:background="@android:drawable/btn_default"
+            android:textSize="@dimen/qcmfontsize"
+            android:layout_gravity="top" />
+
+        <Button
+            android:layout_width="@dimen/buttonQcmwidth"
+            android:layout_height="@dimen/buttonQcmHeight"
+            android:text="New button"
+            android:id="@+id/choix4"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textAlignment="center"
+            android:background="@android:drawable/btn_default"
+            android:textSize="@dimen/qcmfontsize"
+            android:layout_gravity="top" />
+    </GridLayout>
+
+</LinearLayout>
