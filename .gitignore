@@ -4,7 +4,6 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
 
@@ -16,10 +15,6 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
-
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
 
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
@@ -80,10 +75,7 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/libraries
+.idea
 
 # Keystore files
 *.jks
@@ -98,5 +90,3 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
-
-.idea
