@@ -1,5 +1,5 @@
 # CarryMe2
-![](/doc/carryme2_logo.png)
+![](/doc/carryme2_logo.jpg)
 
 Ce projet à été réalisé à l'IUT dans le cadre de la matière "Développement Mobile".
 
@@ -10,17 +10,17 @@ Nous avons élaboré un cahier des charges et développé l'application.
 
 ### Captures d'écran
 
-![](/doc/carryme2_1.png)
-![](/doc/carryme2_2.png)
-![](/doc/carryme2_3.png)
-![](/doc/carryme2_4.png)
-![](/doc/carryme2_5.png)
-![](/doc/carryme2_6.png)
-![](/doc/carryme2_7.png)
-![](/doc/carryme2_8.png)
-![](/doc/carryme2_9.png)
-![](/doc/carryme2_10.png)
-![](/doc/carryme2_11.png)
+![](/doc/carryme2_1.jpg)
+![](/doc/carryme2_2.jpg)
+![](/doc/carryme2_3.jpg)
+![](/doc/carryme2_4.jpg)
+![](/doc/carryme2_5.jpg)
+![](/doc/carryme2_6.jpg)
+![](/doc/carryme2_7.jpg)
+![](/doc/carryme2_8.jpg)
+![](/doc/carryme2_9.jpg)
+![](/doc/carryme2_10.jpg)
+![](/doc/carryme2_11.jpg)
 
 ### Remerciements
 
