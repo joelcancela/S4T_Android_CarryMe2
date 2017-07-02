@@ -6,7 +6,7 @@ Ce projet à été réalisé à l'IUT dans le cadre de la matière "Développeme
 ### Sujet
 Il était question de créer une application mobile pour des élèves de CM2, afin qu'ils puissent tester leurs connaissances.
 Sur le large panel de compétences au programme de CM2, nous avons choisi de porter notre application sur un quiz sur l'Union Européenne et du calcul mental.
-Nous avons élaboré un cahier des charges et développé l'application.
+Nous avons élaboré un cahier des charges et développé l'application en Android.
 
 ### Captures d'écran
 
