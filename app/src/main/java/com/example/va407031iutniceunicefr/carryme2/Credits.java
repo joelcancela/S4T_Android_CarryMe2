@@ -3,8 +3,6 @@ package com.example.va407031iutniceunicefr.carryme2;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Xml;
 import android.view.View;
@@ -44,7 +42,7 @@ public class Credits extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.credits);
-        String url = "http://www.joelcancela.fr/share/CarryMe2/credits.xml";
+        String url = "https://www.joelcancela.fr/services/CarryMe2/credits.xml";
         String finalUrl = url;
         final ProgressDialog progressDialog = ProgressDialog.show(Credits.this, "Chargement","Connexion en cours...", true, true, null);
         clientHttp.get(Credits.this, finalUrl, new TextHttpResponseHandler() {
