@@ -42,7 +42,7 @@ public class Credits extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.credits);
-        String url = "https://www.joelcancela.fr/services/CarryMe2/credits.xml";
+        String url = "https://api.joelcancela.fr/CarryMe2/credits.xml";
         String finalUrl = url;
         final ProgressDialog progressDialog = ProgressDialog.show(Credits.this, "Chargement","Connexion en cours...", true, true, null);
         clientHttp.get(Credits.this, finalUrl, new TextHttpResponseHandler() {
